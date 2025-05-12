@@ -22,16 +22,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_rd8v473',
+        'template_p0316tk',
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Matheus Machado',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'matheusmachadoroc@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        'n6b4c9hOO_HgWzVpg',
       )
       .then(
         () => {
@@ -72,14 +72,14 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Entre em contato</h3>
+          <h3 className="head-text">Contact me</h3>
           <p className="text-lg text-white-600 mt-3">
-          Estou em busca de novas oportunidades para aplicar minhas habilidades em desenvolvimento de software e contribuir com soluções inovadoras. Pronto para novos desafios!
+          I am seeking new opportunities to apply my software development skills and contribute to innovative solutions. Ready for new challenges!
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
-              <span className="field-label">Nome completo</span>
+              <span className="field-label">Full Name</span>
               <input
                 type="text"
                 name="name"
@@ -105,7 +105,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Envie sua mensagem</span>
+              <span className="field-label">Send your Message</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -118,7 +118,7 @@ const Contact = () => {
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Enviar mensagem'}
+              {loading ? 'Sending...' : 'send a message'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>

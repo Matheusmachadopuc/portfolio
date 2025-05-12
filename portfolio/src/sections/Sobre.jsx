@@ -23,10 +23,9 @@ const Sobre = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Oi, eu sou Matheus Machado</p>
+              <p className="grid-headtext">Hi, I`m Matheus Machado</p>
               <p className="grid-subtext">
-                Faço faculdade de ciencias da computação na PUC-RS e sou desenvolvedor FullStack. Sou apaixonado por tecnologia e sempre busco aprender
-                novas habilidades. Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.
+              I'm a Computer Science student at PUC-RS and a FullStack Developer. Passionate about technology, I’m constantly learning new skills and seeking challenges to grow professionally.
               </p>
             </div>
           </div>
@@ -39,8 +38,7 @@ const Sobre = () => {
             <div>
               <p className="grid-headtext">FullStack</p>
               <p className="grid-subtext">
-                Sou um desenvolvedor FullStack com experiência em React, Node.js, Express e MongoDB. Tenho alto conhecimento em HTML, CSS e JavaScript.
-                Estou sempre aprendendo novas tecnologias e frameworks para melhorar minhas habilidades e oferecer soluções de alta qualidade. alem disso tenho conhecimento em Java, Spring, SQL, C, C++.
+              I'm a FullStack Developer with expertise in React, Node.js, Express, and MongoDB. Proficient in HTML, CSS, and JavaScript, I’m constantly learning new technologies and frameworks to enhance my skills and deliver high-quality solutions. Additionally, I have experience with Java, Spring, SQL, C, and C++.
               </p>
             </div>
           </div>
@@ -62,8 +60,8 @@ const Sobre = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">Sou nascido no Brasil no estado do Rio Grande do Sul</p>
-              <p className="grid-subtext">Falo inglês avançado e tenho conhecimentos básicos de espanhol, idioma que estou aperfeiçoando atualmente.</p>
+              <p className="grid-headtext">I'm from Rio Grande do Sul, Brazil.</p>
+              <p className="grid-subtext">I have advanced English proficiency and basic knowledge of Spanish, a language I'm currently improving.</p>
             </div>
           </div>
         </div>
@@ -73,9 +71,9 @@ const Sobre = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Sobre Mim</p>
+              <p className="grid-headtext">About me</p>
               <p className="grid-subtext">
-              Sou apaixonado por tecnologia e por transformar ideias em soluções funcionais através da programação. Mais do que uma profissão, codificar é o que me motiva todos os dias. Gosto de enfrentar desafios, resolver problemas complexos e buscar constantemente novas tecnologias que me permitam evoluir como desenvolvedor. Estou sempre aprimorando minhas habilidades para criar soluções eficientes, escaláveis e inovadoras.
+               I'm passionate about technology and transforming ideas into functional solutions through programming. More than just a profession, coding is what drives me every day. I thrive on tackling challenges, solving complex problems, and continuously exploring new technologies to grow as a developer. I'm constantly refining my skills to build efficient, scalable, and innovative solutions.
               </p>
             </div>
           </div>
@@ -90,7 +88,7 @@ const Sobre = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Entre em contato</p>
+              <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">matheusrocharoc@gmail.com</p>
